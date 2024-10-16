@@ -60,31 +60,6 @@ type CrossTenantAccessPolicyConfigurationPartner struct {
 	TenantRestrictions *CrossTenantAccessPolicyTenantRestrictions `json:"tenantRestrictions,omitempty"`
 }
 
-var _ json.Marshaler = CrossTenantAccessPolicyConfigurationPartner{}
-
-func (s CrossTenantAccessPolicyConfigurationPartner) MarshalJSON() ([]byte, error) {
-	type wrapper CrossTenantAccessPolicyConfigurationPartner
-	wrapped := wrapper(s)
-	encoded, err := json.Marshal(wrapped)
-	if err != nil {
-		return nil, fmt.Errorf("marshaling CrossTenantAccessPolicyConfigurationPartner: %+v", err)
-	}
-
-	var decoded map[string]interface{}
-	if err = json.Unmarshal(encoded, &decoded); err != nil {
-		return nil, fmt.Errorf("unmarshaling CrossTenantAccessPolicyConfigurationPartner: %+v", err)
-	}
-
-	delete(decoded, "tenantId")
-
-	encoded, err = json.Marshal(decoded)
-	if err != nil {
-		return nil, fmt.Errorf("re-marshaling CrossTenantAccessPolicyConfigurationPartner: %+v", err)
-	}
-
-	return encoded, nil
-}
-
 var _ json.Unmarshaler = &CrossTenantAccessPolicyConfigurationPartner{}
 
 func (s *CrossTenantAccessPolicyConfigurationPartner) UnmarshalJSON(bytes []byte) error {

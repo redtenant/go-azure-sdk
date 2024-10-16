@@ -95,7 +95,6 @@ func (s ConnectedOrganization) MarshalJSON() ([]byte, error) {
 
 	delete(decoded, "createdBy")
 	delete(decoded, "createdDateTime")
-	delete(decoded, "identitySources")
 	delete(decoded, "modifiedBy")
 	delete(decoded, "modifiedDateTime")
 

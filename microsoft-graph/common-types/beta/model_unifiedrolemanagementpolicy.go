@@ -29,7 +29,7 @@ type UnifiedRoleManagementPolicy struct {
 	IsOrganizationDefault nullable.Type[bool] `json:"isOrganizationDefault,omitempty"`
 
 	// The identity who last modified the role setting.
-	LastModifiedBy Identity `json:"lastModifiedBy"`
+	LastModifiedBy *Identity `json:"lastModifiedBy,omitempty"`
 
 	// The time when the role setting was last modified.
 	LastModifiedDateTime nullable.Type[string] `json:"lastModifiedDateTime,omitempty"`
@@ -80,6 +80,9 @@ func (s UnifiedRoleManagementPolicy) MarshalJSON() ([]byte, error) {
 	if err = json.Unmarshal(encoded, &decoded); err != nil {
 		return nil, fmt.Errorf("unmarshaling UnifiedRoleManagementPolicy: %+v", err)
 	}
+
+	delete(decoded, "lastModifiedBy")
+	delete(decoded, "lastModifiedDateTime")
 
 	if !s.OmitDiscriminatedValue {
 		decoded["@odata.type"] = "#microsoft.graph.unifiedRoleManagementPolicy"
@@ -148,7 +151,7 @@ func (s *UnifiedRoleManagementPolicy) UnmarshalJSON(bytes []byte) error {
 		if err != nil {
 			return fmt.Errorf("unmarshaling field 'LastModifiedBy' for 'UnifiedRoleManagementPolicy': %+v", err)
 		}
-		s.LastModifiedBy = impl
+		s.LastModifiedBy = &impl
 	}
 
 	if v, ok := temp["rules"]; ok {

@@ -156,14 +156,6 @@ func UnmarshalPolicyBaseImplementation(input []byte) (PolicyBase, error) {
 		return out, nil
 	}
 
-	if strings.EqualFold(value, "#microsoft.graph.identitySecurityDefaultsEnforcementPolicy") {
-		var out IdentitySecurityDefaultsEnforcementPolicy
-		if err := json.Unmarshal(input, &out); err != nil {
-			return nil, fmt.Errorf("unmarshaling into IdentitySecurityDefaultsEnforcementPolicy: %+v", err)
-		}
-		return out, nil
-	}
-
 	if strings.EqualFold(value, "#microsoft.graph.permissionGrantPolicy") {
 		var out PermissionGrantPolicy
 		if err := json.Unmarshal(input, &out); err != nil {

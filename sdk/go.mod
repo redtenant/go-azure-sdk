@@ -1,4 +1,4 @@
-module github.com/hashicorp/go-azure-sdk/sdk
+module github.com/redtenant/go-azure-sdk/sdk
 
 go 1.21
 

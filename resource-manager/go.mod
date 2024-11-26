@@ -1,4 +1,4 @@
-module github.com/hashicorp/go-azure-sdk/resource-manager
+module github.com/redtenant/go-azure-sdk/resource-manager
 
 go 1.21
 

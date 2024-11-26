@@ -45,8 +45,6 @@ github.com/hashicorp/errwrap v1.1.0 h1:OxrOeh75EUXMY8TBjag2fzXGZ40LB6IKw45YeGUDY
 github.com/hashicorp/errwrap v1.1.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
 github.com/hashicorp/go-azure-helpers v0.67.0 h1:0RY6mY3W3Ym2I+jExLtyLx96fh6p5n9vidqisAKGUSE=
 github.com/hashicorp/go-azure-helpers v0.67.0/go.mod h1:S4Bu66vyJvHA0trqHQB0YVGsISuF7HMH9tyEsMVlx8A=
-github.com/hashicorp/go-azure-sdk/sdk v0.20241016.1080325 h1:r5i22zK4Ld+Cytf3FFovXVl2DnyQ1Wm0Ahkp7aKWxKo=
-github.com/hashicorp/go-azure-sdk/sdk v0.20241016.1080325/go.mod h1:dMKF6bXrgGmy1d3pLzkmBpG2JIHgSAV2/OMSCEgyMwE=
 github.com/hashicorp/go-cleanhttp v0.5.2 h1:035FKYIWjmULyFRBKPs8TBQoi0x6d9G4xc9neXJWAZQ=
 github.com/hashicorp/go-cleanhttp v0.5.2/go.mod h1:kO/YDlP8L1346E6Sodw+PrpBSV4/SoxCXGY6BqNFT48=
 github.com/hashicorp/go-cty v1.4.1-0.20200414143053-d3edf31b6320 h1:1/D3zfFHttUKaCaGKZ/dR2roBXv0vKbSCnssIldfQdI=
@@ -99,6 +97,8 @@ github.com/mitchellh/reflectwalk v1.0.2 h1:G2LzWKi524PWgd3mLHV8Y5k7s6XUvT0Gef6zx
 github.com/mitchellh/reflectwalk v1.0.2/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx0jmZXqmk4esnw=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/redtenant/go-azure-sdk/sdk v0.20241126.1723 h1:0EayuDLDxwuNJj1zBBjw6mK3ly30ZZd9m1mkL0IFibQ=
+github.com/redtenant/go-azure-sdk/sdk v0.20241126.1723/go.mod h1:n/6/pvm2EGECET7vN18Px8m0dYeX/vMCjWs3ewipn80=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.4.0/go.mod h1:YvHI0jy2hoMjB+UWwv71VJQ9isScKT/TqJzVSSt89Yw=
 github.com/stretchr/objx v0.5.0/go.mod h1:Yh+to48EsGEfYuaHDzXPcE3xhTkx73EhmCGUpEOglKo=

@@ -6,16 +6,16 @@ package v2024_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2024-05-01/agentpools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2024-05-01/maintenanceconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2024-05-01/managedclusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2024-05-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2024-05-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2024-05-01/resolveprivatelinkserviceid"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2024-05-01/snapshots"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2024-05-01/trustedaccess"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2024-05-01/agentpools"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2024-05-01/maintenanceconfigurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2024-05-01/managedclusters"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2024-05-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2024-05-01/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2024-05-01/resolveprivatelinkserviceid"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2024-05-01/snapshots"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2024-05-01/trustedaccess"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

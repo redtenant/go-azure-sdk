@@ -5,11 +5,11 @@ package v2020_04_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2020-04-01/checkfrontdoornameavailability"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2020-04-01/checkfrontdoornameavailabilitywithsubscription"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2020-04-01/frontdoors"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2020-04-01/webapplicationfirewallmanagedrulesets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2020-04-01/webapplicationfirewallpolicies"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2020-04-01/checkfrontdoornameavailability"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2020-04-01/checkfrontdoornameavailabilitywithsubscription"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2020-04-01/frontdoors"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2020-04-01/webapplicationfirewallmanagedrulesets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2020-04-01/webapplicationfirewallpolicies"
 )
 
 type Client struct {

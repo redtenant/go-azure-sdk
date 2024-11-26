@@ -6,17 +6,17 @@ package v2024_04_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/getprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/listprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/recoveryservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/registeredidentities"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/replicationusages"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/vaultcertificates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/vaultextendedinfo"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/vaults"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/vaultusages"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/getprivatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/listprivatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/recoveryservices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/registeredidentities"
+	"github.com/redtenant/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/replicationusages"
+	"github.com/redtenant/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/vaultcertificates"
+	"github.com/redtenant/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/vaultextendedinfo"
+	"github.com/redtenant/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/vaults"
+	"github.com/redtenant/go-azure-sdk/resource-manager/recoveryservices/2024-04-01/vaultusages"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

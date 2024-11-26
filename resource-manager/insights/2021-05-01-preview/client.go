@@ -6,15 +6,15 @@ package v2021_05_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-05-01-preview/autoscaleapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-05-01-preview/autoscalesettings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-05-01-preview/diagnosticsettings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-05-01-preview/diagnosticsettingscategories"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-05-01-preview/managementgroupdiagnosticsettings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-05-01-preview/metrics"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-05-01-preview/subscriptiondiagnosticsettings"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2021-05-01-preview/autoscaleapis"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2021-05-01-preview/autoscalesettings"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2021-05-01-preview/diagnosticsettings"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2021-05-01-preview/diagnosticsettingscategories"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2021-05-01-preview/managementgroupdiagnosticsettings"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2021-05-01-preview/metrics"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2021-05-01-preview/subscriptiondiagnosticsettings"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

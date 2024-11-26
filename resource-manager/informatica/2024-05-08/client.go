@@ -6,10 +6,10 @@ package v2024_05_08
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/informatica/2024-05-08/organizations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/informatica/2024-05-08/serverlessruntimes"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/informatica/2024-05-08/organizations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/informatica/2024-05-08/serverlessruntimes"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

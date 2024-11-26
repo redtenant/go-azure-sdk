@@ -6,11 +6,11 @@ package v2024_04_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resourcegraph/2024-04-01/graphqueries"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resourcegraph/2024-04-01/graphquery"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resourcegraph/2024-04-01/resources"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resourcegraph/2024-04-01/graphqueries"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resourcegraph/2024-04-01/graphquery"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resourcegraph/2024-04-01/resources"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

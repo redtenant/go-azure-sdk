@@ -6,17 +6,17 @@ package v2023_03_02_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/agentpools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/maintenanceconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/managedclusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/managedclustersnapshots"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/resolveprivatelinkserviceid"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/snapshots"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/trustedaccess"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/agentpools"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/maintenanceconfigurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/managedclusters"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/managedclustersnapshots"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/resolveprivatelinkserviceid"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/snapshots"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-03-02-preview/trustedaccess"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

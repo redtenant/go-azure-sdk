@@ -6,14 +6,14 @@ package v2023_10_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagemover/2023-10-01/agents"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagemover/2023-10-01/endpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagemover/2023-10-01/jobdefinitions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagemover/2023-10-01/jobruns"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagemover/2023-10-01/projects"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagemover/2023-10-01/storagemovers"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/storagemover/2023-10-01/agents"
+	"github.com/redtenant/go-azure-sdk/resource-manager/storagemover/2023-10-01/endpoints"
+	"github.com/redtenant/go-azure-sdk/resource-manager/storagemover/2023-10-01/jobdefinitions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/storagemover/2023-10-01/jobruns"
+	"github.com/redtenant/go-azure-sdk/resource-manager/storagemover/2023-10-01/projects"
+	"github.com/redtenant/go-azure-sdk/resource-manager/storagemover/2023-10-01/storagemovers"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

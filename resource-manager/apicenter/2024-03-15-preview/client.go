@@ -6,17 +6,17 @@ package v2024_03_15_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/apidefinitions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/apis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/apiversions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/deletedservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/deployments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/environments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/metadataschemas"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/services"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/workspaces"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/apidefinitions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/apis"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/apiversions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/deletedservices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/deployments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/metadataschemas"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/services"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-15-preview/workspaces"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

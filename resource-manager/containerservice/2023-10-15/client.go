@@ -6,12 +6,12 @@ package v2023_10_15
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleetmembers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleetupdatestrategies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-15/updateruns"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleetmembers"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleetupdatestrategies"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2023-10-15/updateruns"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

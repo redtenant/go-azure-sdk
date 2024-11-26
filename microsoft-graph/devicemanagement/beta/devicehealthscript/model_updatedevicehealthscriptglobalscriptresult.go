@@ -1,7 +1,7 @@
 package devicehealthscript
 
 import (
-	"github.com/hashicorp/go-azure-sdk/sdk/nullable"
+	"github.com/redtenant/go-azure-sdk/sdk/nullable"
 )
 
 // Copyright (c) HashiCorp Inc. All rights reserved.

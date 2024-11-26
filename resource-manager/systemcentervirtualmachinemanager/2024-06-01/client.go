@@ -6,17 +6,17 @@ package v2024_06_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/availabilitysets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/clouds"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/guestagents"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/inventoryitems"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/virtualmachineinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/virtualmachinetemplates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/virtualnetworks"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/vminstancehybrididentitymetadatas"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/vmmservers"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/availabilitysets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/clouds"
+	"github.com/redtenant/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/guestagents"
+	"github.com/redtenant/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/inventoryitems"
+	"github.com/redtenant/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/virtualmachineinstances"
+	"github.com/redtenant/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/virtualmachinetemplates"
+	"github.com/redtenant/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/virtualnetworks"
+	"github.com/redtenant/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/vminstancehybrididentitymetadatas"
+	"github.com/redtenant/go-azure-sdk/resource-manager/systemcentervirtualmachinemanager/2024-06-01/vmmservers"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

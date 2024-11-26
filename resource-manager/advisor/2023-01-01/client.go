@@ -6,15 +6,15 @@ package v2023_01_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2023-01-01/advisorscore"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2023-01-01/configurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2023-01-01/generaterecommendations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2023-01-01/getrecommendations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2023-01-01/metadata"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2023-01-01/prediction"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2023-01-01/suppressions"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/advisor/2023-01-01/advisorscore"
+	"github.com/redtenant/go-azure-sdk/resource-manager/advisor/2023-01-01/configurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/advisor/2023-01-01/generaterecommendations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/advisor/2023-01-01/getrecommendations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/advisor/2023-01-01/metadata"
+	"github.com/redtenant/go-azure-sdk/resource-manager/advisor/2023-01-01/prediction"
+	"github.com/redtenant/go-azure-sdk/resource-manager/advisor/2023-01-01/suppressions"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

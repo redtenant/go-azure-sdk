@@ -6,15 +6,15 @@ package v2024_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2024-03-01/deploymentoperations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2024-03-01/deployments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2024-03-01/deploymentstacks"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2024-03-01/providers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2024-03-01/resourcegroups"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2024-03-01/resources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2024-03-01/tags"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resources/2024-03-01/deploymentoperations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resources/2024-03-01/deployments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resources/2024-03-01/deploymentstacks"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resources/2024-03-01/providers"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resources/2024-03-01/resourcegroups"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resources/2024-03-01/resources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resources/2024-03-01/tags"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

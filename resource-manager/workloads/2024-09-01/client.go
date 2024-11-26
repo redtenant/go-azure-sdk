@@ -6,12 +6,12 @@ package v2024_09_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2024-09-01/sapapplicationserverinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2024-09-01/sapcentralserverinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2024-09-01/sapdatabaseinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2024-09-01/sapvirtualinstances"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2024-09-01/sapapplicationserverinstances"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2024-09-01/sapcentralserverinstances"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2024-09-01/sapdatabaseinstances"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2024-09-01/sapvirtualinstances"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

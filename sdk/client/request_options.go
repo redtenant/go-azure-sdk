@@ -6,7 +6,7 @@ package client
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/redtenant/go-azure-sdk/sdk/odata"
 )
 
 type RequestOptions struct {

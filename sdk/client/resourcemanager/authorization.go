@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
+	"github.com/redtenant/go-azure-sdk/sdk/auth"
 )
 
 func AuthorizeResourceManagerRequest(ctx context.Context, req *http.Request, authorizer auth.Authorizer) error {

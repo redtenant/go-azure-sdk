@@ -6,10 +6,10 @@ package v2022_05_13
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/confidentialledger/2022-05-13/confidentialledger"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/confidentialledger/2022-05-13/nameavailability"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/confidentialledger/2022-05-13/confidentialledger"
+	"github.com/redtenant/go-azure-sdk/resource-manager/confidentialledger/2022-05-13/nameavailability"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

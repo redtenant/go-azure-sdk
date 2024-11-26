@@ -6,11 +6,11 @@ package v2019_05_05_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/alertsmanagement/2019-05-05-preview/actionrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/alertsmanagement/2019-05-05-preview/alertsmanagements"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/alertsmanagement/2019-05-05-preview/smartgroups"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/alertsmanagement/2019-05-05-preview/actionrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/alertsmanagement/2019-05-05-preview/alertsmanagements"
+	"github.com/redtenant/go-azure-sdk/resource-manager/alertsmanagement/2019-05-05-preview/smartgroups"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

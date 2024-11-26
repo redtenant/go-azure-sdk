@@ -6,9 +6,9 @@ package beta
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/directoryobjects/beta/directoryobject"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/msgraph"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/directoryobjects/beta/directoryobject"
+	"github.com/redtenant/go-azure-sdk/sdk/client/msgraph"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,14 +6,14 @@ package v2024_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2024-03-01/aad"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2024-03-01/firewallrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2024-03-01/patchschedules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2024-03-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2024-03-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2024-03-01/redis"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redis/2024-03-01/aad"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redis/2024-03-01/firewallrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redis/2024-03-01/patchschedules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redis/2024-03-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redis/2024-03-01/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redis/2024-03-01/redis"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

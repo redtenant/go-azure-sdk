@@ -6,15 +6,15 @@ package beta
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/beta/domain"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/beta/domainnamereference"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/beta/federationconfiguration"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/beta/rootdomain"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/beta/serviceconfigurationrecord"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/beta/sharedemaildomaininvitation"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/beta/verificationdnsrecord"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/msgraph"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/beta/domain"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/beta/domainnamereference"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/beta/federationconfiguration"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/beta/rootdomain"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/beta/serviceconfigurationrecord"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/beta/sharedemaildomaininvitation"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/beta/verificationdnsrecord"
+	"github.com/redtenant/go-azure-sdk/sdk/client/msgraph"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

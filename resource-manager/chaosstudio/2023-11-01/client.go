@@ -6,13 +6,13 @@ package v2023_11_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/capabilities"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/capabilitytypes"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/experiments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/targets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/targettypes"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/capabilities"
+	"github.com/redtenant/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/capabilitytypes"
+	"github.com/redtenant/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/experiments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/targets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/chaosstudio/2023-11-01/targettypes"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

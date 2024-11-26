@@ -6,13 +6,13 @@ package v2024_10_19
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/imageversions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/pools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/resourcedetails"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/sku"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/subscriptionusages"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/imageversions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/pools"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/resourcedetails"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/sku"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-10-19/subscriptionusages"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

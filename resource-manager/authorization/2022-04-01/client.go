@@ -6,13 +6,13 @@ package v2022_04_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2022-04-01/denyassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2022-04-01/permissions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2022-04-01/provideroperationsmetadata"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2022-04-01/roleassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2022-04-01/roledefinitions"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/authorization/2022-04-01/denyassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/authorization/2022-04-01/permissions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/authorization/2022-04-01/provideroperationsmetadata"
+	"github.com/redtenant/go-azure-sdk/resource-manager/authorization/2022-04-01/roleassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/authorization/2022-04-01/roledefinitions"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

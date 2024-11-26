@@ -6,10 +6,10 @@ package v2017_08_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/analysisservices/2017-08-01/analysisservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/analysisservices/2017-08-01/servers"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/analysisservices/2017-08-01/analysisservices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/analysisservices/2017-08-01/servers"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

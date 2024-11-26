@@ -6,11 +6,11 @@ package v2024_01_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/videoindexer/2024-01-01/accesstoken"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/videoindexer/2024-01-01/accounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/videoindexer/2024-01-01/nameavailability"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/videoindexer/2024-01-01/accesstoken"
+	"github.com/redtenant/go-azure-sdk/resource-manager/videoindexer/2024-01-01/accounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/videoindexer/2024-01-01/nameavailability"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

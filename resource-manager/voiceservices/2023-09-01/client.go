@@ -6,11 +6,11 @@ package v2023_09_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/voiceservices/2023-09-01/communicationsgateways"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/voiceservices/2023-09-01/testlines"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/voiceservices/2023-09-01/voiceservices"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/voiceservices/2023-09-01/communicationsgateways"
+	"github.com/redtenant/go-azure-sdk/resource-manager/voiceservices/2023-09-01/testlines"
+	"github.com/redtenant/go-azure-sdk/resource-manager/voiceservices/2023-09-01/voiceservices"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

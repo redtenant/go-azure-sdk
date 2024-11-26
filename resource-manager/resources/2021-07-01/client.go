@@ -6,10 +6,10 @@ package v2021_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2021-07-01/features"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2021-07-01/subscriptionfeatureregistrations"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resources/2021-07-01/features"
+	"github.com/redtenant/go-azure-sdk/resource-manager/resources/2021-07-01/subscriptionfeatureregistrations"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

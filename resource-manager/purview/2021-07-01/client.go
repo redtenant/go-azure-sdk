@@ -6,13 +6,13 @@ package v2021_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-07-01/account"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-07-01/defaultaccount"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-07-01/privateendpointconnection"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-07-01/privatelinkresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-07-01/provider"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/purview/2021-07-01/account"
+	"github.com/redtenant/go-azure-sdk/resource-manager/purview/2021-07-01/defaultaccount"
+	"github.com/redtenant/go-azure-sdk/resource-manager/purview/2021-07-01/privateendpointconnection"
+	"github.com/redtenant/go-azure-sdk/resource-manager/purview/2021-07-01/privatelinkresource"
+	"github.com/redtenant/go-azure-sdk/resource-manager/purview/2021-07-01/provider"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

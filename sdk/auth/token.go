@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/claims"
+	"github.com/redtenant/go-azure-sdk/sdk/claims"
 	"golang.org/x/oauth2"
 )
 

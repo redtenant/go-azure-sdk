@@ -6,11 +6,11 @@ package v2023_11_15
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/networkanalytics/2023-11-15/dataproducts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/networkanalytics/2023-11-15/dataproductscatalogs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/networkanalytics/2023-11-15/datatypes"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/networkanalytics/2023-11-15/dataproducts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/networkanalytics/2023-11-15/dataproductscatalogs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/networkanalytics/2023-11-15/datatypes"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

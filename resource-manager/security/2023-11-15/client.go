@@ -6,13 +6,13 @@ package v2023_11_15
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/apimconfig"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/d4apicollection"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/d4apicollectionlist"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/offboardfromd4api"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/onboardtod4api"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2023-11-15/apimconfig"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2023-11-15/d4apicollection"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2023-11-15/d4apicollectionlist"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2023-11-15/offboardfromd4api"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2023-11-15/onboardtod4api"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

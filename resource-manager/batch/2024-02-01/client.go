@@ -6,17 +6,17 @@ package v2024_02_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/batch/2024-02-01/application"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/batch/2024-02-01/applicationpackage"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/batch/2024-02-01/batchaccount"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/batch/2024-02-01/batchmanagements"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/batch/2024-02-01/certificate"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/batch/2024-02-01/location"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/batch/2024-02-01/pool"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/batch/2024-02-01/privateendpointconnection"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/batch/2024-02-01/privatelinkresource"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/batch/2024-02-01/application"
+	"github.com/redtenant/go-azure-sdk/resource-manager/batch/2024-02-01/applicationpackage"
+	"github.com/redtenant/go-azure-sdk/resource-manager/batch/2024-02-01/batchaccount"
+	"github.com/redtenant/go-azure-sdk/resource-manager/batch/2024-02-01/batchmanagements"
+	"github.com/redtenant/go-azure-sdk/resource-manager/batch/2024-02-01/certificate"
+	"github.com/redtenant/go-azure-sdk/resource-manager/batch/2024-02-01/location"
+	"github.com/redtenant/go-azure-sdk/resource-manager/batch/2024-02-01/pool"
+	"github.com/redtenant/go-azure-sdk/resource-manager/batch/2024-02-01/privateendpointconnection"
+	"github.com/redtenant/go-azure-sdk/resource-manager/batch/2024-02-01/privatelinkresource"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

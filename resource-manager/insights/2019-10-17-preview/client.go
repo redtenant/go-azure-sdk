@@ -6,12 +6,12 @@ package v2019_10_17_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkscopedresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkscopesapis"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkscopedresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkscopesapis"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

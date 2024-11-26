@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/common-types/beta"
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/common-types/beta"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/odata"
 )
 
 // Copyright (c) HashiCorp Inc. All rights reserved.

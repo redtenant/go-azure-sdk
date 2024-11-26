@@ -6,19 +6,19 @@ package v2023_12_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/clusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/datastores"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/hosts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/inventoryitems"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/resourcepools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/vcenters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/virtualmachineinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/virtualmachinetemplates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/virtualnetworks"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/vminstanceguestagents"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/vminstancehybrididentitymetadata"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/clusters"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/datastores"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/hosts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/inventoryitems"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/resourcepools"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/vcenters"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/virtualmachineinstances"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/virtualmachinetemplates"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/virtualnetworks"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/vminstanceguestagents"
+	"github.com/redtenant/go-azure-sdk/resource-manager/connectedvmware/2023-12-01/vminstancehybrididentitymetadata"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

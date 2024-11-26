@@ -6,10 +6,10 @@ import (
 	"net/http"
 
 	"github.com/hashicorp/go-azure-helpers/resourcemanager/commonids"
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/pollers"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/client/pollers"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	"github.com/redtenant/go-azure-sdk/sdk/odata"
 )
 
 // Copyright (c) Microsoft Corporation. All rights reserved.

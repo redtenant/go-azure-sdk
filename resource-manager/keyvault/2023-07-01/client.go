@@ -6,19 +6,19 @@ package v2023_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/keys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/managedhsmkeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/managedhsms"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmlistprivateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmlistregions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmprivateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/secrets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/vaults"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/keys"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/managedhsmkeys"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/managedhsms"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmlistprivateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmlistregions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmprivateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmprivatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/secrets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/keyvault/2023-07-01/vaults"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

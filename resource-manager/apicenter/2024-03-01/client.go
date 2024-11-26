@@ -6,16 +6,16 @@ package v2024_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-01/apidefinitions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-01/apis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-01/apiversions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-01/deployments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-01/environments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-01/metadataschemas"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-01/services"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/apicenter/2024-03-01/workspaces"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-01/apidefinitions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-01/apis"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-01/apiversions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-01/deployments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-01/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-01/metadataschemas"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-01/services"
+	"github.com/redtenant/go-azure-sdk/resource-manager/apicenter/2024-03-01/workspaces"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

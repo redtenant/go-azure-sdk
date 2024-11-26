@@ -6,18 +6,18 @@ package v2019_11_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/account"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/consumerinvitation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/dataset"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/datasetmapping"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/emailregistration"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/invitation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/share"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/sharesubscription"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/synchronizationsetting"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/trigger"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/account"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/consumerinvitation"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/dataset"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/datasetmapping"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/emailregistration"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/invitation"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/share"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/sharesubscription"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/synchronizationsetting"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datashare/2019-11-01/trigger"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

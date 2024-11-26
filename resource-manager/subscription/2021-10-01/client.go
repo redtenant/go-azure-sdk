@@ -5,7 +5,7 @@ package v2021_10_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/subscription/2021-10-01/subscriptions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/subscription/2021-10-01/subscriptions"
 )
 
 type Client struct {

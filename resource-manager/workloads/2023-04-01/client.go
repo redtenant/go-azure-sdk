@@ -6,19 +6,19 @@ package v2023_04_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/monitors"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/providerinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/sapapplicationserverinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/sapavailabilityzonedetails"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/sapcentralinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/sapdatabaseinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/sapdiskconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/saplandscapemonitor"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/saprecommendations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/sapsupportedsku"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/sapvirtualinstances"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/monitors"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/providerinstances"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/sapapplicationserverinstances"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/sapavailabilityzonedetails"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/sapcentralinstances"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/sapdatabaseinstances"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/sapdiskconfigurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/saplandscapemonitor"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/saprecommendations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/sapsupportedsku"
+	"github.com/redtenant/go-azure-sdk/resource-manager/workloads/2023-04-01/sapvirtualinstances"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

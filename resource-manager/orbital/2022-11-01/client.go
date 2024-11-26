@@ -6,12 +6,12 @@ package v2022_11_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/orbital/2022-11-01/contact"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/orbital/2022-11-01/contactprofile"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/orbital/2022-11-01/groundstation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/orbital/2022-11-01/spacecraft"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/orbital/2022-11-01/contact"
+	"github.com/redtenant/go-azure-sdk/resource-manager/orbital/2022-11-01/contactprofile"
+	"github.com/redtenant/go-azure-sdk/resource-manager/orbital/2022-11-01/groundstation"
+	"github.com/redtenant/go-azure-sdk/resource-manager/orbital/2022-11-01/spacecraft"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

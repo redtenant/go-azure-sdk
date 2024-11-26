@@ -6,12 +6,12 @@ package v2016_06_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/web/2016-06-01/connectiongateways"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/web/2016-06-01/connections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/web/2016-06-01/customapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/web/2016-06-01/managedapis"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/web/2016-06-01/connectiongateways"
+	"github.com/redtenant/go-azure-sdk/resource-manager/web/2016-06-01/connections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/web/2016-06-01/customapis"
+	"github.com/redtenant/go-azure-sdk/resource-manager/web/2016-06-01/managedapis"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

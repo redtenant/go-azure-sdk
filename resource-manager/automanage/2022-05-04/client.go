@@ -6,19 +6,19 @@ package v2022_05_04
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/bestpractices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/bestpracticesversions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofileassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofilehciassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofilehcrpassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofiles"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofilesversions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/hcireports"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/hcrpreports"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/reports"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/serviceprincipals"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/bestpractices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/bestpracticesversions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofileassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofilehciassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofilehcrpassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofiles"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofilesversions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/hcireports"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/hcrpreports"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/reports"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automanage/2022-05-04/serviceprincipals"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

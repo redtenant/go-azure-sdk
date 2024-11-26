@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/redtenant/go-azure-sdk/sdk/odata"
 )
 
 func TestQueryHeaders(t *testing.T) {

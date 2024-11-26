@@ -6,19 +6,19 @@ package v2021_06_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/applications"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/clusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/configurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/extensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/promote"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/regions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/scriptactions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/scriptexecutionhistory"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2021-06-01/virtualmachines"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/applications"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/clusters"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/configurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/extensions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/promote"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/regions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/scriptactions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/scriptexecutionhistory"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hdinsight/2021-06-01/virtualmachines"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

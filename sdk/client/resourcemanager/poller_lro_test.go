@@ -10,8 +10,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/pollers"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/client/pollers"
 )
 
 func TestPollerLRO_InProvisioningState_TerminalStates(t *testing.T) {
@@ -387,7 +387,7 @@ func TestPollerLRO_InStatus_AcceptedThenDroppedThenInProgressThenSuccess(t *test
 func TestPollerLRO_InProvisioningState_404ThenImmediateSuccess(t *testing.T) {
 	// This scenario handles the API returning a 404 initially, then succeeded
 	// This happens when there's an API bug, since we shouldn't get the initial 404 - and can be
-	// seen in this issue: https://github.com/hashicorp/go-azure-sdk/issues/886 (although this test
+	// seen in this issue: https://github.com/redtenant/go-azure-sdk/issues/886 (although this test
 	// assumes we've immediately passed)
 	ctx := context.TODO()
 	helpers := newLongRunningOperationsEndpoint([]expectedResponse{
@@ -427,7 +427,7 @@ func TestPollerLRO_InProvisioningState_404ThenImmediateSuccess(t *testing.T) {
 func TestPollerLRO_InStatus_404ThenImmediateSuccess(t *testing.T) {
 	// This scenario handles the API returning a 404 initially, then succeeded
 	// This happens when there's an API bug, since we shouldn't get the initial 404 - and can be
-	// seen in this issue: https://github.com/hashicorp/go-azure-sdk/issues/886 (although this test
+	// seen in this issue: https://github.com/redtenant/go-azure-sdk/issues/886 (although this test
 	// assumes we've immediately passed)
 	ctx := context.TODO()
 	helpers := newLongRunningOperationsEndpoint([]expectedResponse{
@@ -467,7 +467,7 @@ func TestPollerLRO_InStatus_404ThenImmediateSuccess(t *testing.T) {
 func TestPollerLRO_InProvisioningState_404ThenInProgressThenSucceeded(t *testing.T) {
 	// This scenario handles the API returning a 404 initially, then in progress, then succeeded
 	// This happens when there's an API bug, since we shouldn't get the initial 404 - and can be
-	// seen in this issue: https://github.com/hashicorp/go-azure-sdk/issues/886
+	// seen in this issue: https://github.com/redtenant/go-azure-sdk/issues/886
 	ctx := context.TODO()
 	helpers := newLongRunningOperationsEndpoint([]expectedResponse{
 		responseWithHttpStatusCode(http.StatusNotFound),
@@ -510,7 +510,7 @@ func TestPollerLRO_InProvisioningState_404ThenInProgressThenSucceeded(t *testing
 func TestPollerLRO_InStatus_404ThenInProgressThenSucceeded(t *testing.T) {
 	// This scenario handles the API returning a 404 initially, then in progress, then succeeded
 	// This happens when there's an API bug, since we shouldn't get the initial 404 - and can be
-	// seen in this issue: https://github.com/hashicorp/go-azure-sdk/issues/886
+	// seen in this issue: https://github.com/redtenant/go-azure-sdk/issues/886
 	ctx := context.TODO()
 	helpers := newLongRunningOperationsEndpoint([]expectedResponse{
 		responseWithHttpStatusCode(http.StatusNotFound),

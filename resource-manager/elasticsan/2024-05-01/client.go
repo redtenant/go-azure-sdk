@@ -6,16 +6,16 @@ package v2024_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2024-05-01/elasticsan"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2024-05-01/elasticsans"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2024-05-01/elasticsanskus"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2024-05-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2024-05-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2024-05-01/snapshots"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2024-05-01/volumegroups"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2024-05-01/volumes"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/elasticsan/2024-05-01/elasticsan"
+	"github.com/redtenant/go-azure-sdk/resource-manager/elasticsan/2024-05-01/elasticsans"
+	"github.com/redtenant/go-azure-sdk/resource-manager/elasticsan/2024-05-01/elasticsanskus"
+	"github.com/redtenant/go-azure-sdk/resource-manager/elasticsan/2024-05-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/elasticsan/2024-05-01/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/elasticsan/2024-05-01/snapshots"
+	"github.com/redtenant/go-azure-sdk/resource-manager/elasticsan/2024-05-01/volumegroups"
+	"github.com/redtenant/go-azure-sdk/resource-manager/elasticsan/2024-05-01/volumes"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,13 +6,13 @@ package v2023_04_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/applyupdates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/configurationassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/maintenanceconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/publicmaintenanceconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/updates"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/maintenance/2023-04-01/applyupdates"
+	"github.com/redtenant/go-azure-sdk/resource-manager/maintenance/2023-04-01/configurationassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/maintenance/2023-04-01/maintenanceconfigurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/maintenance/2023-04-01/publicmaintenanceconfigurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/maintenance/2023-04-01/updates"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

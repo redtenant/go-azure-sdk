@@ -6,18 +6,18 @@ package v2021_06_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/checknameavailability"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/configurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/databases"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/firewallrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/getprivatednszonesuffix"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/locationbasedcapabilities"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/serverrestart"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/servers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/serverstart"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2021-06-01/serverstop"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/checknameavailability"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/configurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/databases"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/firewallrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/getprivatednszonesuffix"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/locationbasedcapabilities"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/serverrestart"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/servers"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/serverstart"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresql/2021-06-01/serverstop"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

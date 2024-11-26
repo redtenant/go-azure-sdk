@@ -6,13 +6,13 @@ package v2024_04_04_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/imageversions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/pools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/resourcedetails"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/sku"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/subscriptionusages"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/imageversions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/pools"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/resourcedetails"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/sku"
+	"github.com/redtenant/go-azure-sdk/resource-manager/devopsinfrastructure/2024-04-04-preview/subscriptionusages"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,17 +6,17 @@ package v2023_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2023-07-01/cacherules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2023-07-01/credentialsets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2023-07-01/operation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2023-07-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2023-07-01/registries"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2023-07-01/replications"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2023-07-01/scopemaps"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2023-07-01/tokens"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2023-07-01/webhooks"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2023-07-01/cacherules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2023-07-01/credentialsets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2023-07-01/operation"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2023-07-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2023-07-01/registries"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2023-07-01/replications"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2023-07-01/scopemaps"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2023-07-01/tokens"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2023-07-01/webhooks"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

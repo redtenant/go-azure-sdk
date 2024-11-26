@@ -6,16 +6,16 @@ package v2021_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/application"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/applicationtype"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/applicationtypeversion"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/managedcluster"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/managedclusterversion"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/nodetype"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/service"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/services"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/application"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/applicationtype"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/applicationtypeversion"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/managedcluster"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/managedclusterversion"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/nodetype"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/service"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/services"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

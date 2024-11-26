@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
 )
 
 var _ error = &storageError{}

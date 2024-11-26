@@ -3,8 +3,8 @@ package deponboardingsettingdefaultmacosenrollmentprofile
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client/msgraph"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/sdk/client/msgraph"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 // Copyright (c) HashiCorp Inc. All rights reserved.

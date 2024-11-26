@@ -6,19 +6,19 @@ package v2023_02_28
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/collection"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/dicomservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/fhirservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/iotconnectors"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/proxy"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/resource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/workspaceprivateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/workspaceprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/workspaces"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/collection"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/dicomservices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/fhirservices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/iotconnectors"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/proxy"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/resource"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/workspaceprivateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/workspaceprivatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/healthcareapis/2023-02-28/workspaces"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

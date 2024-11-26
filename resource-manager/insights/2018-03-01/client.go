@@ -6,11 +6,11 @@ package v2018_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2018-03-01/actiongroupsapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2018-03-01/metricalerts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2018-03-01/metricalertsstatus"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2018-03-01/actiongroupsapis"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2018-03-01/metricalerts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2018-03-01/metricalertsstatus"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

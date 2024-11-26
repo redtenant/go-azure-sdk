@@ -6,16 +6,16 @@ package v2022_04_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/accessconnector"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/delete"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/outboundnetworkdependenciesendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/put"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/vnetpeering"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/workspaces"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/accessconnector"
+	"github.com/redtenant/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/delete"
+	"github.com/redtenant/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/outboundnetworkdependenciesendpoints"
+	"github.com/redtenant/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/put"
+	"github.com/redtenant/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/vnetpeering"
+	"github.com/redtenant/go-azure-sdk/resource-manager/databricks/2022-04-01-preview/workspaces"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

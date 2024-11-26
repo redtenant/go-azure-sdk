@@ -6,14 +6,14 @@ package v2023_09_04
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/machinepools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/openshiftclusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/openshiftversions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/secrets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/syncidentityproviders"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/syncsets"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/machinepools"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/openshiftclusters"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/openshiftversions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/secrets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/syncidentityproviders"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redhatopenshift/2023-09-04/syncsets"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

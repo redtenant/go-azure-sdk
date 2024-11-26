@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
 )
 
 // PollerType allows custom pollers to be created to determine when a particular Operation has

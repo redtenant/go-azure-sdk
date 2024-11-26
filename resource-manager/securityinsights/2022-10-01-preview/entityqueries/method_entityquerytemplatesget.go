@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/odata"
 )
 
 // Copyright (c) Microsoft Corporation. All rights reserved.

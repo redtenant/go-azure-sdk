@@ -6,10 +6,10 @@ package v2020_10_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/attestation/2020-10-01/attestationproviders"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/attestation/2020-10-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/attestation/2020-10-01/attestationproviders"
+	"github.com/redtenant/go-azure-sdk/resource-manager/attestation/2020-10-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

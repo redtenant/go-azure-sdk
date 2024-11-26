@@ -6,13 +6,13 @@ package v2024_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mongocluster/2024-07-01/firewallrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mongocluster/2024-07-01/mongoclusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mongocluster/2024-07-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mongocluster/2024-07-01/privatelinks"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mongocluster/2024-07-01/replicas"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/mongocluster/2024-07-01/firewallrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/mongocluster/2024-07-01/mongoclusters"
+	"github.com/redtenant/go-azure-sdk/resource-manager/mongocluster/2024-07-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/mongocluster/2024-07-01/privatelinks"
+	"github.com/redtenant/go-azure-sdk/resource-manager/mongocluster/2024-07-01/replicas"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

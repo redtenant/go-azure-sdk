@@ -6,15 +6,15 @@ package v2021_06_22
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/automationaccount"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworker"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworkergroup"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/listkeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/operations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/statistics"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/usages"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automation/2021-06-22/automationaccount"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworker"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworkergroup"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automation/2021-06-22/listkeys"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automation/2021-06-22/operations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automation/2021-06-22/statistics"
+	"github.com/redtenant/go-azure-sdk/resource-manager/automation/2021-06-22/usages"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,13 +6,13 @@ package v2016_11_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakestore/2016-11-01/accounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakestore/2016-11-01/firewallrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakestore/2016-11-01/locations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakestore/2016-11-01/trustedidproviders"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakestore/2016-11-01/virtualnetworkrules"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakestore/2016-11-01/accounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakestore/2016-11-01/firewallrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakestore/2016-11-01/locations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakestore/2016-11-01/trustedidproviders"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakestore/2016-11-01/virtualnetworkrules"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,15 +6,15 @@ package v2024_10_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/policyinsights/2024-10-01/attestations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/policyinsights/2024-10-01/checkpolicyrestrictions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/policyinsights/2024-10-01/componentpolicystates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/policyinsights/2024-10-01/policyevents"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/policyinsights/2024-10-01/policymetadata"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/policyinsights/2024-10-01/policystates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/policyinsights/2024-10-01/remediations"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/policyinsights/2024-10-01/attestations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/policyinsights/2024-10-01/checkpolicyrestrictions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/policyinsights/2024-10-01/componentpolicystates"
+	"github.com/redtenant/go-azure-sdk/resource-manager/policyinsights/2024-10-01/policyevents"
+	"github.com/redtenant/go-azure-sdk/resource-manager/policyinsights/2024-10-01/policymetadata"
+	"github.com/redtenant/go-azure-sdk/resource-manager/policyinsights/2024-10-01/policystates"
+	"github.com/redtenant/go-azure-sdk/resource-manager/policyinsights/2024-10-01/remediations"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -1,7 +1,7 @@
 package calendarcalendarviewattachment
 
 import (
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/common-types/beta"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/common-types/beta"
 )
 
 // Copyright (c) HashiCorp Inc. All rights reserved.

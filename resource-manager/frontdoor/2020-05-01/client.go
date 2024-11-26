@@ -5,9 +5,9 @@ package v2020_05_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2020-05-01/checkfrontdoornameavailability"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2020-05-01/checkfrontdoornameavailabilitywithsubscription"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2020-05-01/frontdoors"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2020-05-01/checkfrontdoornameavailability"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2020-05-01/checkfrontdoornameavailabilitywithsubscription"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2020-05-01/frontdoors"
 )
 
 type Client struct {

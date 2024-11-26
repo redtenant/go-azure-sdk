@@ -3,7 +3,7 @@
 
 package resourcemanager
 
-import "github.com/hashicorp/go-azure-sdk/sdk/client/pollers"
+import "github.com/redtenant/go-azure-sdk/sdk/client/pollers"
 
 var longRunningOperationCustomStatuses = map[status]pollers.PollingStatus{
 	// Expected/Documented Terminal Statuses
@@ -52,16 +52,16 @@ var longRunningOperationCustomStatuses = map[status]pollers.PollingStatus{
 	// CosmosDB @ 2023-04-15 returns `Dequeued` rather than `InProgress` during creation/update
 	"Dequeued": pollers.PollingStatusInProgress,
 
-	// StorageSync@2020-03-01 returns `finishNewStorageSyncService` rather than `InProgress` during creation/update (https://github.com/hashicorp/go-azure-sdk/issues/565)
+	// StorageSync@2020-03-01 returns `finishNewStorageSyncService` rather than `InProgress` during creation/update (https://github.com/redtenant/go-azure-sdk/issues/565)
 	"finishNewStorageSyncService": pollers.PollingStatusInProgress,
 
-	// StorageSync@2020-03-01 returns `newManagedIdentityCredentialStep` rather than `InProgress` during creation/update (https://github.com/hashicorp/go-azure-sdk/issues/565)
+	// StorageSync@2020-03-01 returns `newManagedIdentityCredentialStep` rather than `InProgress` during creation/update (https://github.com/redtenant/go-azure-sdk/issues/565)
 	"newManagedIdentityCredentialStep": pollers.PollingStatusInProgress,
 
-	// StorageSync@2020-03-01 returns `newPrivateDnsEntries` rather than `InProgress` during creation/update (https://github.com/hashicorp/go-azure-sdk/issues/565)
+	// StorageSync@2020-03-01 returns `newPrivateDnsEntries` rather than `InProgress` during creation/update (https://github.com/redtenant/go-azure-sdk/issues/565)
 	"newPrivateDnsEntries": pollers.PollingStatusInProgress,
 
-	// StorageSync@2020-03-01 (CloudEndpoints) returns `newReplicaGroup` rather than `InProgress` during creation/update (https://github.com/hashicorp/go-azure-sdk/issues/565)
+	// StorageSync@2020-03-01 (CloudEndpoints) returns `newReplicaGroup` rather than `InProgress` during creation/update (https://github.com/redtenant/go-azure-sdk/issues/565)
 	"newReplicaGroup": pollers.PollingStatusInProgress,
 
 	// StorageSync@2020-03-01 returns `notifySyncServicePartition` rather than `InProgress` during creation
@@ -104,7 +104,7 @@ var longRunningOperationCustomStatuses = map[status]pollers.PollingStatus{
 	// HealthBot @ 2022-08-08 (HealthBots CreateOrUpdate) returns `Working` during Creation
 	"Working": pollers.PollingStatusInProgress,
 
-	// StorageSync@2020-03-01 returns `validateInput` rather than `InProgress` during creation/update (https://github.com/hashicorp/go-azure-sdk/issues/565)
+	// StorageSync@2020-03-01 returns `validateInput` rather than `InProgress` during creation/update (https://github.com/redtenant/go-azure-sdk/issues/565)
 	"validateInput": pollers.PollingStatusInProgress,
 
 	// EventGrid @ 2022-06-15 returns `AwaitingManualAction` while waiting for manual validation of a webhook (https://github.com/hashicorp/terraform-provider-azurerm/issues/25689)

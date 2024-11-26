@@ -6,14 +6,14 @@ package v2022_01_25
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationassignmenthcrpreports"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationassignmentreports"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationconnectedvmwarevsphereassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationconnectedvmwarevsphereassignmentsreports"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationhcrpassignments"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationassignmenthcrpreports"
+	"github.com/redtenant/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationassignmentreports"
+	"github.com/redtenant/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationconnectedvmwarevsphereassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationconnectedvmwarevsphereassignmentsreports"
+	"github.com/redtenant/go-azure-sdk/resource-manager/guestconfiguration/2022-01-25/guestconfigurationhcrpassignments"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

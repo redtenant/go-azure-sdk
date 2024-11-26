@@ -6,16 +6,16 @@ package v2024_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2024-03-01/accounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2024-03-01/connectedresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2024-03-01/linkedresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2024-03-01/monitoredsubscriptions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2024-03-01/monitors"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2024-03-01/organizations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2024-03-01/plan"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2024-03-01/tagrules"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2024-03-01/accounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2024-03-01/connectedresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2024-03-01/linkedresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2024-03-01/monitoredsubscriptions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2024-03-01/monitors"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2024-03-01/organizations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2024-03-01/plan"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2024-03-01/tagrules"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

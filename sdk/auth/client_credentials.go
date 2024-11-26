@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/sdk/environments"
 	"github.com/hashicorp/go-uuid"
 	"golang.org/x/oauth2"
 )

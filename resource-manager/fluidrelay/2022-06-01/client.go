@@ -6,10 +6,10 @@ package v2022_06_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/fluidrelay/2022-06-01/fluidrelaycontainers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/fluidrelay/2022-06-01/fluidrelayservers"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/fluidrelay/2022-06-01/fluidrelaycontainers"
+	"github.com/redtenant/go-azure-sdk/resource-manager/fluidrelay/2022-06-01/fluidrelayservers"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

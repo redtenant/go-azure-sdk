@@ -6,14 +6,14 @@ package v2023_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/clusterextensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/extensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/flux"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/fluxconfiguration"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/operationsinacluster"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/sourcecontrolconfiguration"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/clusterextensions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/extensions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/flux"
+	"github.com/redtenant/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/fluxconfiguration"
+	"github.com/redtenant/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/operationsinacluster"
+	"github.com/redtenant/go-azure-sdk/resource-manager/kubernetesconfiguration/2023-05-01/sourcecontrolconfiguration"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

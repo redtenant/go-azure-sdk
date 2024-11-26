@@ -6,13 +6,13 @@ package v2021_11_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/relay/2021-11-01/hybridconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/relay/2021-11-01/namespaces"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/relay/2021-11-01/namespacesprivateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/relay/2021-11-01/namespacesprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/relay/2021-11-01/wcfrelays"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/relay/2021-11-01/hybridconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/relay/2021-11-01/namespaces"
+	"github.com/redtenant/go-azure-sdk/resource-manager/relay/2021-11-01/namespacesprivateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/relay/2021-11-01/namespacesprivatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/relay/2021-11-01/wcfrelays"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

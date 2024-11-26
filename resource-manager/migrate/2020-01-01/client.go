@@ -6,19 +6,19 @@ package v2020_01_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervcluster"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervhost"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervjobs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervmachines"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervrunasaccounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervsites"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/jobs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/machines"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/runasaccounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/sites"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/migrate/2020-01-01/vcenter"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervcluster"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervhost"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervjobs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervmachines"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervrunasaccounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/hypervsites"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/jobs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/machines"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/runasaccounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/sites"
+	"github.com/redtenant/go-azure-sdk/resource-manager/migrate/2020-01-01/vcenter"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

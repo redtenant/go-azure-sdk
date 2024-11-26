@@ -6,12 +6,12 @@ package v2024_04_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicelinker/2024-04-01/configurationnames"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicelinker/2024-04-01/connector"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicelinker/2024-04-01/linkers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicelinker/2024-04-01/servicelinker"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicelinker/2024-04-01/configurationnames"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicelinker/2024-04-01/connector"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicelinker/2024-04-01/linkers"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicelinker/2024-04-01/servicelinker"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

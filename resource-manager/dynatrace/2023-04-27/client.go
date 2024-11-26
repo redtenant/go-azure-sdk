@@ -6,11 +6,11 @@ package v2023_04_27
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dynatrace/2023-04-27/monitors"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dynatrace/2023-04-27/singlesignon"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dynatrace/2023-04-27/tagrules"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/dynatrace/2023-04-27/monitors"
+	"github.com/redtenant/go-azure-sdk/resource-manager/dynatrace/2023-04-27/singlesignon"
+	"github.com/redtenant/go-azure-sdk/resource-manager/dynatrace/2023-04-27/tagrules"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

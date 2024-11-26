@@ -6,16 +6,16 @@ package v2022_11_08
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/clusteroperations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/clusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/configurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/firewallrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/roles"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/servers"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/clusteroperations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/clusters"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/configurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/firewallrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/roles"
+	"github.com/redtenant/go-azure-sdk/resource-manager/postgresqlhsc/2022-11-08/servers"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

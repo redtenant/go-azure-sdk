@@ -6,13 +6,13 @@ package v2015_04_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/activitylogs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/autoscaleapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/autoscalesettings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/eventcategories"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/tenantactivitylogs"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2015-04-01/activitylogs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2015-04-01/autoscaleapis"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2015-04-01/autoscalesettings"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2015-04-01/eventcategories"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2015-04-01/tenantactivitylogs"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

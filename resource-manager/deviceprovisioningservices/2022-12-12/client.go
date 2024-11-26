@@ -6,10 +6,10 @@ package v2022_12_12
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceprovisioningservices/2022-12-12/dpscertificate"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceprovisioningservices/2022-12-12/iotdpsresource"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceprovisioningservices/2022-12-12/dpscertificate"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceprovisioningservices/2022-12-12/iotdpsresource"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

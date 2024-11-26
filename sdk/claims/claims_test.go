@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/claims"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/test"
+	"github.com/redtenant/go-azure-sdk/sdk/auth"
+	"github.com/redtenant/go-azure-sdk/sdk/claims"
+	"github.com/redtenant/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/sdk/internal/test"
 )
 
 func TestAccParseClaims_azureCli(t *testing.T) {

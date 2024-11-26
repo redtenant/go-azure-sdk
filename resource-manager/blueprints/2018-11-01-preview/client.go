@@ -6,15 +6,15 @@ package v2018_11_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/artifact"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/assignment"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/assignmentoperations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/blueprint"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/blueprintassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/publishedartifact"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/publishedblueprint"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/artifact"
+	"github.com/redtenant/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/assignment"
+	"github.com/redtenant/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/assignmentoperations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/blueprint"
+	"github.com/redtenant/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/blueprintassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/publishedartifact"
+	"github.com/redtenant/go-azure-sdk/resource-manager/blueprints/2018-11-01-preview/publishedblueprint"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

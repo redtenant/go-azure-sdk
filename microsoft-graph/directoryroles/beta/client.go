@@ -6,11 +6,11 @@ package beta
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/directoryroles/beta/directoryrole"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/directoryroles/beta/member"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/directoryroles/beta/scopedmember"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/msgraph"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/directoryroles/beta/directoryrole"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/directoryroles/beta/member"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/directoryroles/beta/scopedmember"
+	"github.com/redtenant/go-azure-sdk/sdk/client/msgraph"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

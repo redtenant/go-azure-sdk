@@ -6,12 +6,12 @@ package v2023_03_31
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/communication/2023-03-31/communicationservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/communication/2023-03-31/domains"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/communication/2023-03-31/emailservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/communication/2023-03-31/senderusernames"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/communication/2023-03-31/communicationservices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/communication/2023-03-31/domains"
+	"github.com/redtenant/go-azure-sdk/resource-manager/communication/2023-03-31/emailservices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/communication/2023-03-31/senderusernames"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

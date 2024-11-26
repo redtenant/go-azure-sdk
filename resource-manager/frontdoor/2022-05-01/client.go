@@ -5,8 +5,8 @@ package v2022_05_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2022-05-01/webapplicationfirewallmanagedrulesets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/frontdoor/2022-05-01/webapplicationfirewallpolicies"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2022-05-01/webapplicationfirewallmanagedrulesets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/frontdoor/2022-05-01/webapplicationfirewallpolicies"
 )
 
 type Client struct {

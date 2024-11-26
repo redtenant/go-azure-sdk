@@ -11,7 +11,7 @@ import (
 
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/adal"
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
+	"github.com/redtenant/go-azure-sdk/sdk/auth"
 )
 
 func AutorestAuthorizer(authorizer auth.Authorizer) *Authorizer {

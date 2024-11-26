@@ -6,14 +6,14 @@ package v2021_10_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/functions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/inputs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/outputs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/streamingjobs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/subscriptions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/transformations"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/functions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/inputs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/outputs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/streamingjobs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/subscriptions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/transformations"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

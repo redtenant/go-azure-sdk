@@ -6,18 +6,18 @@ package v2018_04_19
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/customoperation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/delete"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/get"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/patch"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/post"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/projectresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/put"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/serviceresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/standardoperation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/taskresource"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/customoperation"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/delete"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/get"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/patch"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/post"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/projectresource"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/put"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/serviceresource"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/standardoperation"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datamigration/2018-04-19/taskresource"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -4,7 +4,7 @@
 package dataplane
 
 import (
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
 )
 
 var _ client.BaseClient = &Client{}

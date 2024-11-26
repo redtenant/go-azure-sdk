@@ -6,12 +6,12 @@ package v2018_01_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2018-01-01-preview/permissions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2018-01-01-preview/provideroperationsmetadata"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2018-01-01-preview/roleassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2018-01-01-preview/roledefinitions"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/authorization/2018-01-01-preview/permissions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/authorization/2018-01-01-preview/provideroperationsmetadata"
+	"github.com/redtenant/go-azure-sdk/resource-manager/authorization/2018-01-01-preview/roleassignments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/authorization/2018-01-01-preview/roledefinitions"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
 )
 
 const DefaultNumberOfDroppedConnectionsToAllow = 3

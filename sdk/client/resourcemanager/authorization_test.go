@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/test"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	"github.com/redtenant/go-azure-sdk/sdk/internal/test"
 )
 
 func TestAuthorizeResourceManagerRequest(t *testing.T) {

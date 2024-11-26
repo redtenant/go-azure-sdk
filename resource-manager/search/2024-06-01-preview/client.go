@@ -6,16 +6,16 @@ package v2024_06_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2024-06-01-preview/adminkeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2024-06-01-preview/networksecurityperimeterconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2024-06-01-preview/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2024-06-01-preview/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2024-06-01-preview/querykeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2024-06-01-preview/services"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2024-06-01-preview/sharedprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2024-06-01-preview/usages"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/search/2024-06-01-preview/adminkeys"
+	"github.com/redtenant/go-azure-sdk/resource-manager/search/2024-06-01-preview/networksecurityperimeterconfigurations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/search/2024-06-01-preview/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/search/2024-06-01-preview/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/search/2024-06-01-preview/querykeys"
+	"github.com/redtenant/go-azure-sdk/resource-manager/search/2024-06-01-preview/services"
+	"github.com/redtenant/go-azure-sdk/resource-manager/search/2024-06-01-preview/sharedprivatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/search/2024-06-01-preview/usages"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

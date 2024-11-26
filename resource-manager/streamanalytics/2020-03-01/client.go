@@ -6,16 +6,16 @@ package v2020_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/clusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/functions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/inputs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/outputs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/privateendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/streamingjobs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/subscriptions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/transformations"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/clusters"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/functions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/inputs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/outputs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/privateendpoints"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/streamingjobs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/subscriptions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/transformations"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

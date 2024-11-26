@@ -6,11 +6,11 @@ package v2021_01_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mixedreality/2021-01-01/key"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mixedreality/2021-01-01/proxy"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mixedreality/2021-01-01/resource"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/mixedreality/2021-01-01/key"
+	"github.com/redtenant/go-azure-sdk/resource-manager/mixedreality/2021-01-01/proxy"
+	"github.com/redtenant/go-azure-sdk/resource-manager/mixedreality/2021-01-01/resource"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

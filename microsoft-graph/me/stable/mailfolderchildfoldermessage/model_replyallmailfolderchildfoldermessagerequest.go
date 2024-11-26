@@ -1,8 +1,8 @@
 package mailfolderchildfoldermessage
 
 import (
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/common-types/stable"
-	"github.com/hashicorp/go-azure-sdk/sdk/nullable"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/common-types/stable"
+	"github.com/redtenant/go-azure-sdk/sdk/nullable"
 )
 
 // Copyright (c) HashiCorp Inc. All rights reserved.

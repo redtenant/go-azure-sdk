@@ -6,12 +6,12 @@ package beta
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/administrativeunits/beta/administrativeunit"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/administrativeunits/beta/extension"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/administrativeunits/beta/member"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/administrativeunits/beta/scopedrolemember"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/msgraph"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/administrativeunits/beta/administrativeunit"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/administrativeunits/beta/extension"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/administrativeunits/beta/member"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/administrativeunits/beta/scopedrolemember"
+	"github.com/redtenant/go-azure-sdk/sdk/client/msgraph"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

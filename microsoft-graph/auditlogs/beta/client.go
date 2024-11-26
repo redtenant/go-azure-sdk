@@ -6,14 +6,14 @@ package beta
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/auditlogs/beta/auditlog"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/auditlogs/beta/customsecurityattributeaudit"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/auditlogs/beta/directoryaudit"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/auditlogs/beta/directoryprovisioning"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/auditlogs/beta/provisioning"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/auditlogs/beta/signin"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/msgraph"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/auditlogs/beta/auditlog"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/auditlogs/beta/customsecurityattributeaudit"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/auditlogs/beta/directoryaudit"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/auditlogs/beta/directoryprovisioning"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/auditlogs/beta/provisioning"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/auditlogs/beta/signin"
+	"github.com/redtenant/go-azure-sdk/sdk/client/msgraph"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

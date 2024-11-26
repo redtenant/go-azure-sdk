@@ -6,19 +6,19 @@ package v2024_07_10
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/extensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/licenseprofiles"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/licenses"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/machineextensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/machineextensionsupgrade"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/machinenetworkprofile"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/machines"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/networksecurityperimeterconfiguration"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/privatelinkscopes"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/extensions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/licenseprofiles"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/licenses"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/machineextensions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/machineextensionsupgrade"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/machinenetworkprofile"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/machines"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/networksecurityperimeterconfiguration"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/hybridcompute/2024-07-10/privatelinkscopes"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

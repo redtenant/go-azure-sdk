@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-azure-helpers/lang/pointer"
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/pollers"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/client/pollers"
+	"github.com/redtenant/go-azure-sdk/sdk/odata"
 )
 
 const DefaultPollingInterval = 10 * time.Second
@@ -108,7 +108,7 @@ func (p *provisioningStatePoller) Poll(ctx context.Context) (*pollers.PollResult
 		// assume that we're done.
 		// Examples: `APIManagement` API Versions `2021-08-01` and `2022-08-01` - `Services.GlobalSchemaCreateOrUpdate`.
 		// Examples: `Automation` API Versions `2020-01-13-preview` - `DscNodeConfiguration.CreateOrUpdate`.
-		// https://github.com/hashicorp/go-azure-sdk/issues/542
+		// https://github.com/redtenant/go-azure-sdk/issues/542
 		return &pollers.PollResult{
 			PollInterval: p.initialRetryDuration,
 			Status:       pollers.PollingStatusSucceeded,

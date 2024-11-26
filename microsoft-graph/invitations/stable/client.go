@@ -6,13 +6,13 @@ package stable
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/invitations/stable/invitation"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/invitations/stable/inviteduser"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/invitations/stable/invitedusermailboxsetting"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/invitations/stable/inviteduserserviceprovisioningerror"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/invitations/stable/invitedusersponsor"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/msgraph"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/invitations/stable/invitation"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/invitations/stable/inviteduser"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/invitations/stable/invitedusermailboxsetting"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/invitations/stable/inviteduserserviceprovisioningerror"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/invitations/stable/invitedusersponsor"
+	"github.com/redtenant/go-azure-sdk/sdk/client/msgraph"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,10 +6,10 @@ package v2021_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/aad/2021-05-01/domainservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/aad/2021-05-01/oucontainer"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/aad/2021-05-01/domainservices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/aad/2021-05-01/oucontainer"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/stringfmt"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/internal/stringfmt"
+	"github.com/redtenant/go-azure-sdk/sdk/odata"
 )
 
 // TODO: return a typed error here so that we could potentially change this error/expose this in the Provider

@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/test"
+	"github.com/redtenant/go-azure-sdk/sdk/auth"
+	"github.com/redtenant/go-azure-sdk/sdk/internal/test"
 )
 
 func TestSetAuthHeader(t *testing.T) {

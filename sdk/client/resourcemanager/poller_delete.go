@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/pollers"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/client/pollers"
+	"github.com/redtenant/go-azure-sdk/sdk/odata"
 )
 
 var _ pollers.PollerType = &deletePoller{}

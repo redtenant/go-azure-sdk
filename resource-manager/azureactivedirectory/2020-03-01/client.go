@@ -6,11 +6,11 @@ package v2020_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privatelinkforazuread"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privatelinkforazuread"
+	"github.com/redtenant/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

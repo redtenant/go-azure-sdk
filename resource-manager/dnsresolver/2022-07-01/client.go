@@ -6,14 +6,14 @@ package v2022_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/dnsforwardingrulesets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/dnsresolvers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/forwardingrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/inboundendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/outboundendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/virtualnetworklinks"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/dnsforwardingrulesets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/dnsresolvers"
+	"github.com/redtenant/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/forwardingrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/inboundendpoints"
+	"github.com/redtenant/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/outboundendpoints"
+	"github.com/redtenant/go-azure-sdk/resource-manager/dnsresolver/2022-07-01/virtualnetworklinks"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

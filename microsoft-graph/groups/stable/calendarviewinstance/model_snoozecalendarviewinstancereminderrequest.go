@@ -1,7 +1,7 @@
 package calendarviewinstance
 
 import (
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/common-types/stable"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/common-types/stable"
 )
 
 // Copyright (c) HashiCorp Inc. All rights reserved.

@@ -6,11 +6,11 @@ package v2024_02_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2024-02-01/metricdefinitions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2024-02-01/metricnamespaces"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2024-02-01/metrics"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2024-02-01/metricdefinitions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2024-02-01/metricnamespaces"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2024-02-01/metrics"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,11 +6,11 @@ package v2019_08_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2019-08-01/agentpools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2019-08-01/containerservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2019-08-01/managedclusters"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2019-08-01/agentpools"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2019-08-01/containerservices"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerservice/2019-08-01/managedclusters"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

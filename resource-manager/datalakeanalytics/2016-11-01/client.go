@@ -6,14 +6,14 @@ package v2016_11_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/accounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/computepolicies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/datalakestoreaccounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/firewallrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/locations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/storageaccounts"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/accounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/computepolicies"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/datalakestoreaccounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/firewallrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/locations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datalakeanalytics/2016-11-01/storageaccounts"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

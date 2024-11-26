@@ -6,13 +6,13 @@ package v2020_10_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/logz/2020-10-01/monitors"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/logz/2020-10-01/singlesignon"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/logz/2020-10-01/subaccount"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/logz/2020-10-01/tagrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/logz/2020-10-01/vmhost"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/logz/2020-10-01/monitors"
+	"github.com/redtenant/go-azure-sdk/resource-manager/logz/2020-10-01/singlesignon"
+	"github.com/redtenant/go-azure-sdk/resource-manager/logz/2020-10-01/subaccount"
+	"github.com/redtenant/go-azure-sdk/resource-manager/logz/2020-10-01/tagrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/logz/2020-10-01/vmhost"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,14 +6,14 @@ package v2016_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/alertruleincidents"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/alertrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/alertrulesapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/logprofiles"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/logprofilesapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/metricdefinitions"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2016-03-01/alertruleincidents"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2016-03-01/alertrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2016-03-01/alertrulesapis"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2016-03-01/logprofiles"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2016-03-01/logprofilesapis"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2016-03-01/metricdefinitions"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

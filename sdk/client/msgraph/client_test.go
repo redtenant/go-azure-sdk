@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-azure-helpers/lang/pointer"
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/msgraph"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/redtenant/go-azure-sdk/sdk/client"
+	"github.com/redtenant/go-azure-sdk/sdk/client/msgraph"
+	"github.com/redtenant/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/sdk/odata"
 )
 
 type options struct{}

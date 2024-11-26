@@ -6,16 +6,16 @@ package v2022_09_15
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/botservice/2022-09-15/bot"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/botservice/2022-09-15/botconnection"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/botservice/2022-09-15/bothostsettings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/botservice/2022-09-15/channel"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/botservice/2022-09-15/listqnamakerendpointkeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/botservice/2022-09-15/listserviceproviders"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/botservice/2022-09-15/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/botservice/2022-09-15/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/botservice/2022-09-15/bot"
+	"github.com/redtenant/go-azure-sdk/resource-manager/botservice/2022-09-15/botconnection"
+	"github.com/redtenant/go-azure-sdk/resource-manager/botservice/2022-09-15/bothostsettings"
+	"github.com/redtenant/go-azure-sdk/resource-manager/botservice/2022-09-15/channel"
+	"github.com/redtenant/go-azure-sdk/resource-manager/botservice/2022-09-15/listqnamakerendpointkeys"
+	"github.com/redtenant/go-azure-sdk/resource-manager/botservice/2022-09-15/listserviceproviders"
+	"github.com/redtenant/go-azure-sdk/resource-manager/botservice/2022-09-15/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/botservice/2022-09-15/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

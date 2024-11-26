@@ -6,16 +6,16 @@ package v2024_09_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/assetendpointprofiles"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/assets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/billingcontainers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/discoveredassetendpointprofiles"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/discoveredassets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/schemaregistries"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/schemas"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/schemaversions"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/assetendpointprofiles"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/assets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/billingcontainers"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/discoveredassetendpointprofiles"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/discoveredassets"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/schemaregistries"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/schemas"
+	"github.com/redtenant/go-azure-sdk/resource-manager/deviceregistry/2024-09-01-preview/schemaversions"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

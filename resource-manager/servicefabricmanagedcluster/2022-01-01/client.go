@@ -6,17 +6,17 @@ package v2022_01_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/application"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/applicationtype"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/applicationtypeversion"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/managedcluster"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/managedclusterversion"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/managedvmsizes"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/nodetype"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/service"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/services"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/application"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/applicationtype"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/applicationtypeversion"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/managedcluster"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/managedclusterversion"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/managedvmsizes"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/nodetype"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/service"
+	"github.com/redtenant/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2022-01-01/services"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

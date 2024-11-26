@@ -6,11 +6,11 @@ package v2021_10_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/billing/2021-10-01/billingsubscriptions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/billing/2021-10-01/billingsubscriptionsaliases"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/billing/2021-10-01/paymentmethods"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/billing/2021-10-01/billingsubscriptions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/billing/2021-10-01/billingsubscriptionsaliases"
+	"github.com/redtenant/go-azure-sdk/resource-manager/billing/2021-10-01/paymentmethods"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

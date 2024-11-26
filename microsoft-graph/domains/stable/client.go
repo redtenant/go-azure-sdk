@@ -6,13 +6,13 @@ package stable
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/stable/domain"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/stable/domainnamereference"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/stable/federationconfiguration"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/stable/serviceconfigurationrecord"
-	"github.com/hashicorp/go-azure-sdk/microsoft-graph/domains/stable/verificationdnsrecord"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/msgraph"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/stable/domain"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/stable/domainnamereference"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/stable/federationconfiguration"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/stable/serviceconfigurationrecord"
+	"github.com/redtenant/go-azure-sdk/microsoft-graph/domains/stable/verificationdnsrecord"
+	"github.com/redtenant/go-azure-sdk/sdk/client/msgraph"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

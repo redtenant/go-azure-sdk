@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
+	"github.com/redtenant/go-azure-sdk/sdk/auth"
 	"golang.org/x/oauth2"
 )
 

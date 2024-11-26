@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/metadata"
+	"github.com/redtenant/go-azure-sdk/sdk/internal/metadata"
 )
 
 func (e *Environment) RefreshMetaDataFromEndpoint(ctx context.Context) error {

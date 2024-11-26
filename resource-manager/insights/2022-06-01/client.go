@@ -6,12 +6,12 @@ package v2022_06_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-06-01/actiongroupsapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionruleassociations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionrules"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2022-06-01/actiongroupsapis"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionendpoints"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionruleassociations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionrules"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

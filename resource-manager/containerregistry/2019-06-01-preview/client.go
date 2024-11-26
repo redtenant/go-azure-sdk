@@ -6,13 +6,13 @@ package v2019_06_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/agentpools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/registries"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/runs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/taskruns"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/tasks"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/agentpools"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/registries"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/runs"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/taskruns"
+	"github.com/redtenant/go-azure-sdk/resource-manager/containerregistry/2019-06-01-preview/tasks"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

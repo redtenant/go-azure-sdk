@@ -6,11 +6,11 @@ package v2019_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/managedapplications/2019-07-01/applicationdefinitions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/managedapplications/2019-07-01/applications"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/managedapplications/2019-07-01/jitrequests"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/managedapplications/2019-07-01/applicationdefinitions"
+	"github.com/redtenant/go-azure-sdk/resource-manager/managedapplications/2019-07-01/applications"
+	"github.com/redtenant/go-azure-sdk/resource-manager/managedapplications/2019-07-01/jitrequests"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

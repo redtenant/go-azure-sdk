@@ -6,18 +6,18 @@ package v2023_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/cognitiveservicesaccounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/cognitiveservicescommitmentplans"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/commitmentplans"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/commitmenttiers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/deployments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/models"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/skus"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cognitive/2023-05-01/usages"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/cognitiveservicesaccounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/cognitiveservicescommitmentplans"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/commitmentplans"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/commitmenttiers"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/deployments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/models"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/skus"
+	"github.com/redtenant/go-azure-sdk/resource-manager/cognitive/2023-05-01/usages"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

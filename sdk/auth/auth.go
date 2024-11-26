@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 // NewAuthorizerFromCredentials returns a suitable Authorizer depending on what is defined in the Credentials

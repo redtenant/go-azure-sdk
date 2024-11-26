@@ -6,12 +6,12 @@ package v2020_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/managementgroups/2020-05-01/checknameavailability"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/managementgroups/2020-05-01/entities"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/managementgroups/2020-05-01/managementgroups"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/managementgroups/2020-05-01/tenantbackfill"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/managementgroups/2020-05-01/checknameavailability"
+	"github.com/redtenant/go-azure-sdk/resource-manager/managementgroups/2020-05-01/entities"
+	"github.com/redtenant/go-azure-sdk/resource-manager/managementgroups/2020-05-01/managementgroups"
+	"github.com/redtenant/go-azure-sdk/resource-manager/managementgroups/2020-05-01/tenantbackfill"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,13 +6,13 @@ package v2022_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01/accounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01/monitors"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01/organizations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01/plan"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01/tagrules"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2022-07-01/accounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2022-07-01/monitors"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2022-07-01/organizations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2022-07-01/plan"
+	"github.com/redtenant/go-azure-sdk/resource-manager/newrelic/2022-07-01/tagrules"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

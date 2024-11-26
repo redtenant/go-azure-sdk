@@ -6,17 +6,17 @@ package v2021_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2021-03-01/agreements"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2021-03-01/apikey"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2021-03-01/hosts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2021-03-01/linkedresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2021-03-01/monitoredresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2021-03-01/monitorsresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2021-03-01/refreshsetpasswordlink"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2021-03-01/rules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2021-03-01/singlesignon"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datadog/2021-03-01/agreements"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datadog/2021-03-01/apikey"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datadog/2021-03-01/hosts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datadog/2021-03-01/linkedresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datadog/2021-03-01/monitoredresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datadog/2021-03-01/monitorsresource"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datadog/2021-03-01/refreshsetpasswordlink"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datadog/2021-03-01/rules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/datadog/2021-03-01/singlesignon"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

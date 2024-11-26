@@ -6,9 +6,9 @@ package v2024_08_27
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/astronomer/2024-08-27/organizations"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/astronomer/2024-08-27/organizations"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

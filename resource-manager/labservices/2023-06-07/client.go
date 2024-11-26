@@ -6,16 +6,16 @@ package v2023_06_07
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2023-06-07/image"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2023-06-07/lab"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2023-06-07/labplan"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2023-06-07/schedule"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2023-06-07/skus"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2023-06-07/usages"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2023-06-07/user"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2023-06-07/virtualmachine"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/labservices/2023-06-07/image"
+	"github.com/redtenant/go-azure-sdk/resource-manager/labservices/2023-06-07/lab"
+	"github.com/redtenant/go-azure-sdk/resource-manager/labservices/2023-06-07/labplan"
+	"github.com/redtenant/go-azure-sdk/resource-manager/labservices/2023-06-07/schedule"
+	"github.com/redtenant/go-azure-sdk/resource-manager/labservices/2023-06-07/skus"
+	"github.com/redtenant/go-azure-sdk/resource-manager/labservices/2023-06-07/usages"
+	"github.com/redtenant/go-azure-sdk/resource-manager/labservices/2023-06-07/user"
+	"github.com/redtenant/go-azure-sdk/resource-manager/labservices/2023-06-07/virtualmachine"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

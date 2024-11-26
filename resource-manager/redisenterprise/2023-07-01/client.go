@@ -6,12 +6,12 @@ package v2023_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redisenterprise/2023-07-01/databases"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redisenterprise/2023-07-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redisenterprise/2023-07-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redisenterprise/2023-07-01/redisenterprise"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redisenterprise/2023-07-01/databases"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redisenterprise/2023-07-01/privateendpointconnections"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redisenterprise/2023-07-01/privatelinkresources"
+	"github.com/redtenant/go-azure-sdk/resource-manager/redisenterprise/2023-07-01/redisenterprise"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

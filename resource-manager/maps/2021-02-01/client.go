@@ -6,11 +6,11 @@ package v2021_02_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maps/2021-02-01/accounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maps/2021-02-01/creators"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maps/2021-02-01/operations"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/maps/2021-02-01/accounts"
+	"github.com/redtenant/go-azure-sdk/resource-manager/maps/2021-02-01/creators"
+	"github.com/redtenant/go-azure-sdk/resource-manager/maps/2021-02-01/operations"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

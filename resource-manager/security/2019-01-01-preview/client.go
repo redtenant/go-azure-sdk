@@ -6,14 +6,14 @@ package v2019_01_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/alertssuppressionrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/assessments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/assessmentsmetadata"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/automations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/regulatorycompliance"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/subassessments"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2019-01-01-preview/alertssuppressionrules"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2019-01-01-preview/assessments"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2019-01-01-preview/assessmentsmetadata"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2019-01-01-preview/automations"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2019-01-01-preview/regulatorycompliance"
+	"github.com/redtenant/go-azure-sdk/resource-manager/security/2019-01-01-preview/subassessments"
+	"github.com/redtenant/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/redtenant/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {
